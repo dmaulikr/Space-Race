@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		234A03811AD562EF00F3CE65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 234A03801AD562EF00F3CE65 /* main.m */; };
+		234A03841AD562EF00F3CE65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 234A03831AD562EF00F3CE65 /* AppDelegate.m */; };
+		234A03871AD562EF00F3CE65 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 234A03861AD562EF00F3CE65 /* MyScene.m */; };
+		234A03891AD562EF00F3CE65 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 234A03881AD562EF00F3CE65 /* GameScene.sks */; };
+		234A038C1AD562EF00F3CE65 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 234A038B1AD562EF00F3CE65 /* GameViewController.m */; };
+		234A038F1AD562EF00F3CE65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234A038D1AD562EF00F3CE65 /* Main.storyboard */; };
+		234A03911AD562EF00F3CE65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234A03901AD562EF00F3CE65 /* Images.xcassets */; };
+		234A03941AD562EF00F3CE65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 234A03921AD562EF00F3CE65 /* LaunchScreen.xib */; };
+		234A03A01AD562EF00F3CE65 /* Space_RaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 234A039F1AD562EF00F3CE65 /* Space_RaceTests.m */; };
+		23C2FF6A1AD6ED9F00CC3E01 /* SPACEJAM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23C2FF691AD6ED9F00CC3E01 /* SPACEJAM.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		234A039A1AD562EF00F3CE65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 234A03731AD562EE00F3CE65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 234A037A1AD562EF00F3CE65;
+			remoteInfo = "Space Race";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		234A037B1AD562EF00F3CE65 /* Space Race.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Race.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		234A037F1AD562EF00F3CE65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		234A03801AD562EF00F3CE65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		234A03821AD562EF00F3CE65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		234A03831AD562EF00F3CE65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		234A03851AD562EF00F3CE65 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		234A03861AD562EF00F3CE65 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		234A03881AD562EF00F3CE65 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		234A038A1AD562EF00F3CE65 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		234A038B1AD562EF00F3CE65 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		234A038E1AD562EF00F3CE65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		234A03901AD562EF00F3CE65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		234A03931AD562EF00F3CE65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		234A03991AD562EF00F3CE65 /* Space RaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space RaceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		234A039E1AD562EF00F3CE65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		234A039F1AD562EF00F3CE65 /* Space_RaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_RaceTests.m; sourceTree = "<group>"; };
+		23C2FF691AD6ED9F00CC3E01 /* SPACEJAM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SPACEJAM.mp3; path = ../../../Downloads/myNewImagePicker1/SPACEJAM.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		234A03781AD562EF00F3CE65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234A03961AD562EF00F3CE65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		234A03721AD562EE00F3CE65 = {
+			isa = PBXGroup;
+			children = (
+				234A037D1AD562EF00F3CE65 /* Space Race */,
+				234A039C1AD562EF00F3CE65 /* Space RaceTests */,
+				234A037C1AD562EF00F3CE65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		234A037C1AD562EF00F3CE65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				234A037B1AD562EF00F3CE65 /* Space Race.app */,
+				234A03991AD562EF00F3CE65 /* Space RaceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		234A037D1AD562EF00F3CE65 /* Space Race */ = {
+			isa = PBXGroup;
+			children = (
+				234A03821AD562EF00F3CE65 /* AppDelegate.h */,
+				234A03831AD562EF00F3CE65 /* AppDelegate.m */,
+				234A03851AD562EF00F3CE65 /* MyScene.h */,
+				234A03861AD562EF00F3CE65 /* MyScene.m */,
+				234A03881AD562EF00F3CE65 /* GameScene.sks */,
+				234A038A1AD562EF00F3CE65 /* GameViewController.h */,
+				234A038B1AD562EF00F3CE65 /* GameViewController.m */,
+				234A038D1AD562EF00F3CE65 /* Main.storyboard */,
+				234A03901AD562EF00F3CE65 /* Images.xcassets */,
+				234A03921AD562EF00F3CE65 /* LaunchScreen.xib */,
+				234A037E1AD562EF00F3CE65 /* Supporting Files */,
+			);
+			path = "Space Race";
+			sourceTree = "<group>";
+		};
+		234A037E1AD562EF00F3CE65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23C2FF691AD6ED9F00CC3E01 /* SPACEJAM.mp3 */,
+				234A037F1AD562EF00F3CE65 /* Info.plist */,
+				234A03801AD562EF00F3CE65 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		234A039C1AD562EF00F3CE65 /* Space RaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				234A039F1AD562EF00F3CE65 /* Space_RaceTests.m */,
+				234A039D1AD562EF00F3CE65 /* Supporting Files */,
+			);
+			path = "Space RaceTests";
+			sourceTree = "<group>";
+		};
+		234A039D1AD562EF00F3CE65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				234A039E1AD562EF00F3CE65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		234A037A1AD562EF00F3CE65 /* Space Race */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 234A03A31AD562EF00F3CE65 /* Build configuration list for PBXNativeTarget "Space Race" */;
+			buildPhases = (
+				234A03771AD562EF00F3CE65 /* Sources */,
+				234A03781AD562EF00F3CE65 /* Frameworks */,
+				234A03791AD562EF00F3CE65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Race";
+			productName = "Space Race";
+			productReference = 234A037B1AD562EF00F3CE65 /* Space Race.app */;
+			productType = "com.apple.product-type.application";
+		};
+		234A03981AD562EF00F3CE65 /* Space RaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 234A03A61AD562EF00F3CE65 /* Build configuration list for PBXNativeTarget "Space RaceTests" */;
+			buildPhases = (
+				234A03951AD562EF00F3CE65 /* Sources */,
+				234A03961AD562EF00F3CE65 /* Frameworks */,
+				234A03971AD562EF00F3CE65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				234A039B1AD562EF00F3CE65 /* PBXTargetDependency */,
+			);
+			name = "Space RaceTests";
+			productName = "Space RaceTests";
+			productReference = 234A03991AD562EF00F3CE65 /* Space RaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		234A03731AD562EE00F3CE65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Andy Zimmelman";
+				TargetAttributes = {
+					234A037A1AD562EF00F3CE65 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					234A03981AD562EF00F3CE65 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 234A037A1AD562EF00F3CE65;
+					};
+				};
+			};
+			buildConfigurationList = 234A03761AD562EE00F3CE65 /* Build configuration list for PBXProject "Space Race" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 234A03721AD562EE00F3CE65;
+			productRefGroup = 234A037C1AD562EF00F3CE65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				234A037A1AD562EF00F3CE65 /* Space Race */,
+				234A03981AD562EF00F3CE65 /* Space RaceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		234A03791AD562EF00F3CE65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C2FF6A1AD6ED9F00CC3E01 /* SPACEJAM.mp3 in Resources */,
+				234A03941AD562EF00F3CE65 /* LaunchScreen.xib in Resources */,
+				234A03911AD562EF00F3CE65 /* Images.xcassets in Resources */,
+				234A03891AD562EF00F3CE65 /* GameScene.sks in Resources */,
+				234A038F1AD562EF00F3CE65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234A03971AD562EF00F3CE65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		234A03771AD562EF00F3CE65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234A038C1AD562EF00F3CE65 /* GameViewController.m in Sources */,
+				234A03841AD562EF00F3CE65 /* AppDelegate.m in Sources */,
+				234A03871AD562EF00F3CE65 /* MyScene.m in Sources */,
+				234A03811AD562EF00F3CE65 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234A03951AD562EF00F3CE65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234A03A01AD562EF00F3CE65 /* Space_RaceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		234A039B1AD562EF00F3CE65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 234A037A1AD562EF00F3CE65 /* Space Race */;
+			targetProxy = 234A039A1AD562EF00F3CE65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		234A038D1AD562EF00F3CE65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				234A038E1AD562EF00F3CE65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		234A03921AD562EF00F3CE65 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				234A03931AD562EF00F3CE65 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		234A03A11AD562EF00F3CE65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		234A03A21AD562EF00F3CE65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		234A03A41AD562EF00F3CE65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Space Race/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		234A03A51AD562EF00F3CE65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Space Race/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		234A03A71AD562EF00F3CE65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Space RaceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space Race.app/Space Race";
+			};
+			name = Debug;
+		};
+		234A03A81AD562EF00F3CE65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Space RaceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space Race.app/Space Race";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		234A03761AD562EE00F3CE65 /* Build configuration list for PBXProject "Space Race" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234A03A11AD562EF00F3CE65 /* Debug */,
+				234A03A21AD562EF00F3CE65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		234A03A31AD562EF00F3CE65 /* Build configuration list for PBXNativeTarget "Space Race" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234A03A41AD562EF00F3CE65 /* Debug */,
+				234A03A51AD562EF00F3CE65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		234A03A61AD562EF00F3CE65 /* Build configuration list for PBXNativeTarget "Space RaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234A03A71AD562EF00F3CE65 /* Debug */,
+				234A03A81AD562EF00F3CE65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 234A03731AD562EE00F3CE65 /* Project object */;
+}
